@@ -1,0 +1,1 @@
+import"./hoisted.DngRAIsv.js";const c=document.getElementById("hc-track"),t=c?Array.from(c.querySelectorAll(".hc-item")):[],r=window.matchMedia("(prefers-reduced-motion:reduce)").matches;if(!r&&t.length>1){let e=0;setInterval(()=>{t[e].classList.remove("on"),e=(e+1)%t.length,t[e].classList.add("on")},3200)}
